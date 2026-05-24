@@ -51,6 +51,11 @@ Tuned via **W&B random-search sweeps (25 runs)** over learning rate, optimizer, 
 
 ## Results
 
+<figure>
+  <img src="figs/search.png" alt="Pareters search graph">
+  <figcaption>The graph shows the average validation dice score for 25 experiments.</figcaption>
+</figure>
+
 Mean Dice score: **93.0% (train) · 92.9% (val) · 92.78% (test)**.
 
 Per-class Dice on the test split:
@@ -63,6 +68,11 @@ Per-class Dice on the test split:
 | AAP   | 83.7%       |
 
 Performance is consistent across train/val/test, indicating good generalization without overfitting. The lower AAP score reflects the difficulty of segmenting smaller structures.
+
+<figure>
+  <img src="figs/output.png" alt="example of segmentation">
+  <figcaption>The image shows an output example of the model.</figcaption>
+</figure>
 
 ## Notebook Structure
 
