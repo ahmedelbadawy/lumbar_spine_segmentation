@@ -1,0 +1,11 @@
+torch
+torchvision
+monai
+albumentations
+opencv-python
+numpy
+matplotlib
+scikit-learn
+Pillow
+tqdm
+wandb
