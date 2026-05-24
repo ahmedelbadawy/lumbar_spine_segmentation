@@ -110,6 +110,3 @@ The full pipeline is in `Mohamed_Ahmed_final_code.ipynb`:
    ```bash
    jupyter notebook main.ipynb
    ```
-
-## License
-[Add your license here]
