@@ -106,7 +106,24 @@ The full pipeline is in `Mohamed_Ahmed_final_code.ipynb`:
    ```bash
    wandb login
    ```
-5. Open and run the notebook:
-   ```bash
-   jupyter notebook main.ipynb
-   ```
+5. Run the project:
+
+   - Option A — Notebook (quick start):
+
+      ```jupyter notebook main.ipynb```
+
+   - Option B — Training script (recommended for experiments):
+
+      ```python train.py```
+
+   - Option C — Hyperparameter sweep (advanced):
+
+      - Make sure sweep.yaml is in the project root.
+
+      - Start a sweep:
+
+      ```wandb sweep sweep.yaml```
+
+      - Run an agent (replace with your generated sweep ID):
+
+      ```wandb agent <username/project/sweep_id>```
